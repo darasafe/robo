@@ -1,3 +1,40 @@
-Robo
+# 🤖 Robo
 
-A DIY buddy robot
+### **A DIY Buddy Robot**  
+Welcome to **Robo** – your friendly, customizable companion robot project! Built using Raspberry Pi, OAK-1 camera, and Crickit HAT, Robo is designed to help you explore the world of robotics and computer vision.
+
+---
+
+## 🚀 Features
+- **Hand Gesture Recognition**: Uses OAK-1 and MediaPipe to identify hand gestures.
+- **Servo Motor Control**: Integrated with the Crickit HAT for smooth movement.
+- **AI-Powered Vision**: OAK-1 camera enables real-time object and gesture tracking.
+- **Extensible Framework**: Easily adaptable to add more sensors, functions, or behavior.
+
+---
+
+## 🛠️ Hardware Requirements
+- **Raspberry Pi 4 Model B** (or 3 Model B, but slower)
+- **OAK-1 Camera** by Luxonis  
+- **Adafruit Crickit HAT** for Raspberry Pi  
+- **Micro SD Card** with Buster OS  
+- Power Supply, HDMI Cable, Monitor, Keyboard, and Mouse
+
+---
+
+## 🧑‍💻 Software Requirements
+- Python 3.9+
+- MediaPipe
+- OpenCV
+- DepthAI SDK
+- Adafruit Blinka & CircuitPython libraries
+
+---
+
+## 📦 Setup
+Follow these steps to set up your Robo robot.
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/darasafe/robo.git
+   cd robo
