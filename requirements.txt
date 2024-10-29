@@ -1,0 +1,5 @@
+depthai
+adafruit-blinka
+adafruit-circuitpython-crickit
+flask
+flask-cors

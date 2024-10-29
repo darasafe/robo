@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# MediaPipe installation or build files
+mediapipe/
+*.deb
+
+# VS Code configurations and extensions
+.vscode-server/
+*.code-workspace
+
+# System Files
+.cache/
+.config/
+.local/
+.ssh/
+.profile
+.bash_history
+.bash_logout
+.bashrc
+.Xauthority
+.wget-hsts
+
+# Node.js build or static files
+static/
+*.ico
+*.png
+*.json
+index.html
+robots.txt
+
+# Python virtual environments
+.env/
+venv/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
