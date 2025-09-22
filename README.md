@@ -43,5 +43,5 @@ Follow these steps to set up your Robo robot.
    bash setup.sh
 4. Run:
    ```bash
-   app.py
+   python3 app.py
 5. Interface with the robot using the robot-control repository
