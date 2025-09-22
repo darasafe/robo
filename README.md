@@ -34,7 +34,14 @@ Welcome to **Robo** – your friendly, customizable companion robot project! Bui
 ## 📦 Setup
 Follow these steps to set up your Robo robot.
 
-1. **Clone the Repository:**
+1. Flash Raspberry Pi OS **Buster** on SD card.
+2. Connect OAK-1 via USB and Cricket HAT via GPIO.
+3. Clone this repo on the Pi:
    ```bash
    git clone https://github.com/darasafe/robo.git
    cd robo
+   bash setup.sh
+4. Run:
+   ```bash
+   app.py
+5. Interface with the robot using the robot-control repository
